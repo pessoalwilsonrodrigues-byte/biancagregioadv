@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Award, BookOpen } from "lucide-react";
-import WaveDivider from "./WaveDivider";
 
 const AboutSection = () => {
   return <section className="relative pt-20 pb-32 md:pt-28 md:pb-40 bg-card overflow-hidden">
@@ -114,10 +113,6 @@ const AboutSection = () => {
         </div>
       </div>
       
-      {/* Wave transition to next section */}
-      <div className="absolute bottom-0 left-0 right-0 z-10">
-        <WaveDivider fillColor="hsl(var(--background))" />
-      </div>
     </section>;
 };
 export default AboutSection;

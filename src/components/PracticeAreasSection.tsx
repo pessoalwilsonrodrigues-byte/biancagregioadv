@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Scale, FileText, Calculator } from "lucide-react";
-import WaveDivider from "./WaveDivider";
 const practiceAreas = [{
   icon: Scale,
   title: "Direito Previdenciário",
@@ -86,10 +85,6 @@ const PracticeAreasSection = () => {
         </div>
       </div>
       
-      {/* Wave transition to gold section */}
-      <div className="absolute bottom-0 left-0 right-0 z-10">
-        <WaveDivider fillColor="hsl(var(--gold))" />
-      </div>
     </section>;
 };
 export default PracticeAreasSection;

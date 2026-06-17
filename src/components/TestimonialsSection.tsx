@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
-import WaveDivider from "./WaveDivider";
 const testimonials = [{
   name: "Maria S.",
   location: "Londrina, PR",
@@ -83,10 +82,6 @@ const TestimonialsSection = () => {
         </div>
       </div>
       
-      {/* Wave transition to FAQ */}
-      <div className="absolute bottom-0 left-0 right-0 z-10">
-        <WaveDivider fillColor="hsl(var(--background))" />
-      </div>
     </section>;
 };
 export default TestimonialsSection;
